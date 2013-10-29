@@ -6,11 +6,11 @@ section {
   width: 90%;
   background-color:#FFF;
   text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:15px;
 }
 
-article {
-  width:90%;
-}
 
 nav {
   float: left; 
