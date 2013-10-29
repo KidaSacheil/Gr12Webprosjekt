@@ -21,7 +21,7 @@ article {
 nav {
   text-align:center;
 }
-ul li {
+ol {
   list-style-type:none;
   list-style-image:none;
   margin-left: 2%;
@@ -29,7 +29,7 @@ ul li {
   float:left;
 }
 
-ul li.funksjonene
+ul
 {
   list-style-type:none;
   text-align:left;
