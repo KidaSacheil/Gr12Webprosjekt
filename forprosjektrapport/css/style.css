@@ -19,7 +19,7 @@ article {
 nav {
   float: left;
   display:inline;
-
+  padding-left:5px;
 }
 
 ul li {
