@@ -1,4 +1,4 @@
 Gr12Webprosjekt
 ===============
 
-Her jobbergruppe 12 med sitt webprosjekt oppgave
+Her jobber gruppe 12 med sitt webprosjekt oppgave. 
