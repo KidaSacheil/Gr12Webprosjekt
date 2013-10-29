@@ -40,3 +40,8 @@ a {
 a:visited {
   color:#000;
 }
+
+p
+{
+  text-align: left;
+}
