@@ -17,7 +17,8 @@ article {
   padding-right: 5%;
 }
 nav {
-  float: left; 
+  float: left;
+  display:inline;
   width:90%;
 
 }
