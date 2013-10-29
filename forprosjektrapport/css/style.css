@@ -11,7 +11,10 @@ section {
   border-radius:15px;
 }
 
-
+article {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 nav {
   float: left; 
   width:90%;
