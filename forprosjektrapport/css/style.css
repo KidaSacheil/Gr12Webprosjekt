@@ -32,3 +32,11 @@ ul li {
 img {
   max-width:40%;
 }
+
+a {
+  color: #000;
+}
+
+a:visited {
+  color:#000;
+}
