@@ -29,7 +29,7 @@ ul li {
   float:left;
 }
 
-ul li:funksjonene
+ul li.funksjonene
 {
   list-style-type:none;
   text-align:left;
