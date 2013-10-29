@@ -28,3 +28,7 @@ ul li {
   display:inline;
   float:left;
 }
+
+img {
+  max-width:30%;
+}
