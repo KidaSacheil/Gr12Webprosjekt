@@ -21,3 +21,8 @@ nav {
   width:90%;
 
 }
+
+ul li {
+  list-decoration: none;
+  
+}
