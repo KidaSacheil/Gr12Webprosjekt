@@ -23,5 +23,5 @@ ul li {
   list-style-image:none;
   display:inline;
   float:left;
-  padding-left:2%;
+  margin-left: 2%;
 }
