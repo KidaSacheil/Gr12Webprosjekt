@@ -18,7 +18,7 @@ article {
 }
 nav {
   float: left;
-  display:inline;
+  display:inline-block;
   width:90%;
 
 }
