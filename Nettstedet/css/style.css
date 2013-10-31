@@ -37,4 +37,19 @@ article {
 {
   width:30%;
   background-color: #2b2b2b;
+  margin-right:2%;
+}
+
+.test
+{
+  width: 30%;
+  background-color: #3b3b3b;
+  margin-right:2%;
+}
+
+.hobby
+{
+  width: 30%;
+  background-color:#4b4b4b;
+  
 }
