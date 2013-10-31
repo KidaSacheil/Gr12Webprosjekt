@@ -5,8 +5,8 @@ body {
 .wrapper
 {
   width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 header {
@@ -14,8 +14,10 @@ header {
   height: 150px;
   background-color:#666;
   font-family: tahoma;
-  font-size: 5em;
- 
+  font-size: 3em;
+  text-align: center;
+  padding-top:10px;
+
 }
 
 section {
