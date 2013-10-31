@@ -67,14 +67,19 @@ article {
   float:left;
 }
 
-.hobby
+.hobby img
 {
   width: 30%;
   height: 600px;
-  background-image: url('../bilder/godmat.jpg');
-  background-size:  cover;
-  background-repeat:no-repeat;
-  background-position: center;
+
   float:left;
+  opacity: 0.4;
 
 }
+
+ 
+.hobby img:hover {
+  opacity: 1;
+
+}
+
