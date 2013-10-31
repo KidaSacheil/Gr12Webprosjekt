@@ -25,3 +25,10 @@ section {
   background-color:#006600;
   margin-top:10px;
 }
+
+article {
+	position: left;
+
+	width: 30%;
+	background-color: #fff;
+}
