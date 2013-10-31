@@ -42,42 +42,57 @@ article {
 }
 
 
-.sport
+
+
+
+/*  Forsiden   */
+
+.sport img
 {
   width:30%;
   height: 600px;
-  background-image: url('../bilder/gokart.jpg');
+  /*background-image: url('../bilder/gokart.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+  opacity: 0.4;
   margin-right:3%;
   margin-left:2%;
   float:left;
 }
 
-.test
+.sport img:hover
+{
+  opacity: 1;
+}
+
+.test img
 {
   width: 30%;
   height:600px;
-  background-image:url('../bilder/quiz.jpg');
+/*  background-image:url('../bilder/quiz.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+  opacity:0.4;
   margin-right:3%;
   float:left;
+}
+
+.test img:hover
+{
+  opacity: 1;
 }
 
 .hobby img
 {
   width: 30%;
   height: 600px;
-
   float:left;
   opacity: 0.4;
 
-}
 
- 
+}
 .hobby img:hover {
   opacity: 1;
 
