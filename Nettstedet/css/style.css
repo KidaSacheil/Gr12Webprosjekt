@@ -25,33 +25,38 @@ section {
   background-color:#006600;
   margin-top:10px;
   float:left;
-  display:inline;
+  
 }
 
 article {
 	position: left;
-
 	width: 30%;
 	background-color: #fff;
 }
+
 
 .sport
 {
   width:30%;
   background-color: #2b2b2b;
-  margin-right:2%;
+  margin-right:3%;
+  margin-left:2%;
+  float:left;
 }
 
 .test
 {
   width: 30%;
   background-color: #3b3b3b;
-  margin-right:2%;
+  margin-right:3%;
+  float:left;
 }
 
 .hobby
 {
   width: 30%;
   background-color:#4b4b4b;
+  float:left;
+  
 
 }
