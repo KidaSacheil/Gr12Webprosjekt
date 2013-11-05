@@ -1,100 +1,151 @@
-body {
-  background-image: url('../bilder/background_image.jpg');
-}
-
-.wrapper
+body
 {
-  width: 80%;
-  background-color: black;
-  margin-left: 10%;
-  margin-right: 10%;
+  background: url('../bilder/ghost-tile.jpg');
 }
 
-header {
-  width: 100%;
-  height: 100px;
-  background-color:#000;
-  font-family: tahoma;
-  font-size: 3em;
-  text-align: center;
-  padding-top:10px;
-  color: #FFF;
-  box-shadow: 1px 0px 5px #000;
+.wrapper {
 
+width: 80%;
+padding-top: 2%;
+padding-bottom:15%;
+margin-left:auto;
+margin-right:auto;
 
 }
 
-section {
+section
+{
   width: 100%;
-  height: 600px;
-  background-color:#0D0D0D;
-  box-shadow: 1px 0px 5px #000;
-  margin-top:10px;
-  padding-top: 10px;
+  margin-top: 5%;
+
+
+}
+
+
+.randomhobby
+{
+  margin-top:10%;
+  width:30%;
+  margin-left:10%;
+  float:left;
+
+  
+}
+
+.randomhobby img
+{
+  width:100%;
+  height:auto;
+}
+
+.randomsport
+{
+  width:20%;
+  margin-top:-4px;
   float:left;
   
 }
 
-article {
-	position: left;
-	width: 30%;
-	background-color: #fff;
+.randomsport img
+{
+  width:100%;
+  height:auto;
 }
 
-
-
-
-
-/*  Forsiden   */
-
-.sport img
+.sport
 {
-  width:30%;
-  height: 600px;
-  /*background-image: url('../bilder/gokart.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
-  opacity: 0.4;
-  margin-right:3%;
-  margin-left:2%;
+  width: 35%;
+  margin-top:5%;
+  height:auto;
+  background-color: #E60E0E;
   float:left;
 }
 
-.sport img:hover
+.sport img
 {
-  opacity: 1;
+  position:center;
+  width:100%;
+  height:auto;
+}
+
+.test
+{
+  
+  width: 25%;
+  height:auto;
+  float:right;
 }
 
 .test img
 {
-  width: 30%;
-  height:600px;
-/*  background-image:url('../bilder/quiz.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
-  opacity:0.4;
-  margin-right:3%;
-  float:left;
+  padding-top:1%;
+  width:100%;
+  height:auto;
 }
 
-.test img:hover
+.hobby
 {
-  opacity: 1;
+  margin-top:-2%;
+  width: 40%;
+  height: auto;
+  background-color: #1450F5;
+  float:left;
+
 }
 
 .hobby img
 {
-  width: 30%;
-  height: 600px;
+
+  position: center;
+  width:100%;
+  height:auto;
+}
+
+
+.sok
+{
+  width:35%;
+  height:auto;
   float:left;
-  opacity: 0.4;
+  margin-top:-7%;
+  
+}
+
+.sok img
+{
+
+  width:100%;
+  height:auto;
+  position: center;
+}
+
+.kontakt
+{
+  margin-top:-0.5%;
+  width: 15%;
+  height:auto;
+  float:right;
+}
+
+.kontakt img
+{
+  width:100%;
+  height:auto;
+
+}
+
+.tekst
+{
+ 
+  width:65%;
+  margin-left:10%;
+  margin-bottom:-8%;
 
 
 }
-.hobby img:hover {
-  opacity: 1;
 
-}
-
+h1{
+  color:#FFF;
+  font-family: tahoma;
+  font-size: 2em;
+ }
