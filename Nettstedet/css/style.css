@@ -151,3 +151,13 @@ h1{
  }
  
 
+ @media (max-width: 585px)
+ {
+  h1 { font-size: 2em;}
+ }
+
+
+@media (max-width: 360px)
+{
+  h1 { font-size: 1em;}
+}
