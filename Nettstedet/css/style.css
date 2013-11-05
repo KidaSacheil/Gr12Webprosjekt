@@ -147,11 +147,8 @@ section
 h1{
   color:#FFF;
   font-family: tahoma;
-  font-size: 2em;
+  font-size: 3em;
  }
  
- @media only screen
- and (max-width: 280px)
- {
-  h1 { font-size: 1em;}
- }
+ @media (max-width: 280px) {/*h1*/}{/* font-size: 2em; */}}
+
