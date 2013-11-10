@@ -28,14 +28,27 @@ section
   width:30%;
   margin-left:10%;
   float:left;
-
-  
+ 
 }
 
-.randomhobby img
+ .randomhobby img
 {
   width:100%;
   height:auto;
+} 
+
+.randomhobby_front
+{
+  cursor:pointer;
+}
+
+.randomhobby_back
+{
+
+  background-color: #006600;
+  display:none;
+  position: absolute;
+  cursor:pointer;
 }
 
 .randomsport
@@ -160,3 +173,6 @@ h1{
 {
   h1 { font-size: 1em;}
 }
+
+
+

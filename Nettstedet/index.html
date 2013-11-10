@@ -4,8 +4,31 @@
     <title>Fritidsmaskinen</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="hflip.js"></script>
 
-  </head>
+
+<script>$(document).ready(function(){
+var margin =$(".randomhobby_front").width()/2;
+var width=$(".randomhobby_front").width();
+var height=$(".randomhobby_front").height();
+$(".randomhobby_back").stop().css({width:'0px',height:''+height+'px',marginLeft:''+margin+'px',opacity:'0.5'});
+  
+  $(".randomhobby_front").hover(function(){
+    $(this).stop().animate({width:'0px',height:''+height+'px',marginLeft:''+margin+'px',opacity:'0.5'},{duration:500});
+    
+    window.setTimeout(function() {
+    $(".randomhobby_back").stop().animate({width:''+width+'px',height:''+height+'px',marginLeft:'0px',opacity:'1'},{duration:500});
+    },500);
+   });
+  
+  $(".randomhobby_back").hover(function(){
+    $(this).stop().animate({width:'0px',height:''+height+'px',marginLeft:''+margin+'px',opacity:'0.5'},{duration:500});
+    window.setTimeout(function() {
+    $(".randomhobby_front").stop().animate({width:''+width+'px',height:''+height+'px',marginLeft:'0px',opacity:'1'},{duration:500});
+    },500);
+  });
+});</script>  </head>
   
   
   <body>
@@ -15,7 +38,19 @@
   
    <section>
     <div class="tekst"><h1>Fritidsmaskinen</h1></div>
-    <div class="randomhobby"><img src="./bilder/strikking_purple.jpg" alt="random hobby"></div>
+      
+      <div class="randomhobby">
+
+        <div class="randomhobby_front">
+            <img src="./bilder/strikking_purple.jpg" alt="random hobby">
+        </div>
+         
+
+        <div class="randomhobby_back">
+        jskjfkjsk
+        </div>
+      </div>
+
    
     <div class="sport"><img src="./bilder/gokart-rod.jpg" alt="Sport"></div>
     <div class="test"><img src="./bilder/quiz-gul3.jpg" alt="test"></div>
