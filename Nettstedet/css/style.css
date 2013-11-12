@@ -1,22 +1,24 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
 body
 {
   background: url('../bilder/ghost-tile.jpg');
+  width:100%;
+  margin-left: auto;
+  margin-right:auto;
 }
 
-.wrapper {
 
-width: 80%;
-padding-top: 2%;
-padding-bottom:15%;
-margin-left:auto;
-margin-right:auto;
+#wrapper {
 
-}
+width: 70%;
+padding-top: 0%;
+margin-left:15%;
+margin-right:15%;
 
-section
-{
-  width: 100%;
-  margin-top: 5%;
 
 
 }
@@ -25,13 +27,13 @@ section
 .randomhobby
 {
   margin-top:10%;
-  width:30%;
-  margin-left:10%;
+  width:25%;
+  margin-left:27.5%;
   float:left;
   height:auto;
- 
-}
+  margin-bottom:-0.5%;
 
+}
 
 #randomhobbybilde
 {
@@ -40,15 +42,15 @@ section
 }
 
 
-.randomsport
+.kontakt
 {
-  width:20%;
-  margin-top:-4px;
+  width:15%;
+  background-color:#04FC00;
   float:left;
   
 }
 
-.randomsport img
+.kontakt img
 {
   width:100%;
   height:auto;
@@ -56,8 +58,9 @@ section
 
 .sport
 {
-  width: 35%;
+  width: 30%;
   margin-top:5%;
+  margin-right:17.5%;
   height:auto;
   background-color: #E60E0E;
   float:left;
@@ -70,49 +73,42 @@ section
   height:auto;
 }
 
-.test
-{
-  
-  width: 25%;
-  height:auto;
-  float:right;
-}
-
-.test img
-{
-  padding-top:1%;
-  width:100%;
-  height:auto;
-}
 
 .hobby
 {
-  margin-top:-2%;
+/* margin-top:-7.5%;*/
   width: 40%;
   height: auto;
   float:left;
+  margin-left:12.5%;
+ 
+
+
 
 }
 
 .hobby img
 {
 
-  position: center;
+
   width:100%;
   height:auto;
 }
 
 
-.sok
+.test
 {
   width:35%;
   height:auto;
-  float:left;
-  margin-top:-7%;
+  margin-top:0;
+  float:right;
+  margin-right:12.5%;
+  margin-bottom:-0.5%;
+
   
 }
 
-.sok img
+.test img
 {
 
   width:100%;
@@ -120,15 +116,15 @@ section
   position: center;
 }
 
-.kontakt
+.sok
 {
-  margin-top:-0.5%;
+  margin-top:0;
   width: 15%;
   height:auto;
   float:right;
 }
 
-.kontakt img
+.sok img
 {
   width:100%;
   height:auto;
@@ -137,10 +133,7 @@ section
 
 .tekst
 {
- 
-  width:65%;
-  margin-left:10%;
-  margin-bottom:-8%;
+ margin-left:10%;
 
 
 }
