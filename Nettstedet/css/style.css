@@ -28,15 +28,16 @@ section
   width:30%;
   margin-left:10%;
   float:left;
+  height:auto;
  
 }
 
- .randomhobby img
+
+#randomhobbybilde
 {
   width:100%;
   height:auto;
-} 
-
+}
 
 
 .randomsport
