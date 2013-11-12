@@ -11,7 +11,7 @@ body
   margin-right:auto;
 }
 
-
+/* Wrapperen er formen rundt, avgjør hvor bredt området på siden skal være, og midstiller. */
 #wrapper {
 
 width: 70%;
@@ -24,7 +24,8 @@ margin-right:15%;
 }
 
 
-.randomhobby
+/* Diven, der det randommet innholdet vises */
+.random
 {
   margin-top:10%;
   width:25%;
@@ -32,30 +33,34 @@ margin-right:15%;
   float:left;
   height:auto;
   margin-bottom:-0.5%;
+  background-color:#ad0987;
 
 }
 
-#randomhobbybilde
+#randombilde
 {
   width:100%;
   height:auto;
 }
 
-
-.kontakt
+h5
 {
-  width:15%;
-  background-color:#04FC00;
-  float:left;
-  
+  opacity: 0;
 }
-
-.kontakt img
+h5:hover
+{
+  opacity:1;
+}
+img:hover
 {
   width:100%;
   height:auto;
+ opacity: 0;
 }
 
+
+
+/* Diven med sport */
 .sport
 {
   width: 30%;
@@ -73,6 +78,25 @@ margin-right:15%;
   height:auto;
 }
 
+/*  Diven med kontakt */
+
+.kontakt
+{
+  width:15%;
+  background-color:#04FC00;
+  float:left;
+  
+}
+
+.kontakt img
+{
+  width:100%;
+  height:auto;
+}
+
+
+
+/* Hobby div */
 
 .hobby
 {
@@ -96,13 +120,14 @@ margin-right:15%;
 }
 
 
+/* Test div*/
 .test
 {
-  width:35%;
+  width:33%;
   height:auto;
   margin-top:0;
   float:right;
-  margin-right:12.5%;
+  margin-right:14.5%;
   margin-bottom:-0.5%;
 
   
@@ -116,21 +141,30 @@ margin-right:15%;
   position: center;
 }
 
+/* Søk div */
 .sok
 {
   margin-top:0;
-  width: 15%;
+  margin-right:11.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  width: 20%;
   height:auto;
   float:right;
+  background: url('../bilder/search2.png');
+  background-position: center;
+
 }
 
-.sok img
+input[type="text"]
 {
-  width:100%;
-  height:auto;
-
+  width:70%;
 }
 
+
+
+/* Tekst */
 .tekst
 {
  margin-left:10%;
@@ -144,6 +178,7 @@ h1{
   font-size: 3em;
  }
  
+ /* Media Queries */
 
  @media (max-width: 585px)
  {
