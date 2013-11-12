@@ -22,52 +22,46 @@ section
 }
 
 
-.randomhobby
+.medier
 {
   margin-top:10%;
   width:30%;
+  height: 267px;
+  background-color: Purple;
   margin-left:10%;
   float:left;
  
 }
 
- .randomhobby img
+.medier2
 {
-  width:100%;
-  height:auto;
-} 
-
-
-
-.randomsport
-{
-  width:20%;
-  margin-top:-4px;
+  margin-top:10%;
+  width:30%;
+  height: 267px;
+  background-color: Purple;
+  margin-left:10%;
   float:left;
-  
+ 
 }
 
-.randomsport img
-{
-  width:100%;
-  height:auto;
+.medier p {
+  margin-left: 5%;
 }
 
-.sport
+
+.info
 {
   width: 35%;
   margin-top:5%;
-  height:auto;
-  background-color: #E60E0E;
+  height:535px;
+  background-color: Gainsboro;
   float:left;
 }
 
-.sport img
-{
-  position:center;
-  width:100%;
-  height:auto;
+.info p {
+  margin-left: 5%;
 }
+
 
 .test
 {
@@ -84,55 +78,6 @@ section
   height:auto;
 }
 
-.hobby
-{
-  margin-top:-2%;
-  width: 40%;
-  height: auto;
-  float:left;
-
-}
-
-.hobby img
-{
-
-  position: center;
-  width:100%;
-  height:auto;
-}
-
-
-.sok
-{
-  width:35%;
-  height:auto;
-  float:left;
-  margin-top:-7%;
-  
-}
-
-.sok img
-{
-
-  width:100%;
-  height:auto;
-  position: center;
-}
-
-.kontakt
-{
-  margin-top:-0.5%;
-  width: 15%;
-  height:auto;
-  float:right;
-}
-
-.kontakt img
-{
-  width:100%;
-  height:auto;
-
-}
 
 .tekst
 {
@@ -161,5 +106,6 @@ h1{
 {
   h1 { font-size: 1em;}
 }
+
 
 
