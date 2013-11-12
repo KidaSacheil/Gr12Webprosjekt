@@ -37,19 +37,7 @@ section
   height:auto;
 } 
 
-.randomhobby_front
-{
-  cursor:pointer;
-}
 
-.randomhobby_back
-{
-
-  background-color: #006600;
-  display:none;
-  position: absolute;
-  cursor:pointer;
-}
 
 .randomsport
 {
