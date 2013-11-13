@@ -39,19 +39,13 @@ margin-right:15%;
 }
 
 
-#randombilde
+img
 {
   width:100%;
   height:auto;
-  z-index:10;
-  float:left;
-  height:auto;
-  margin-bottom:-0.5%;
-  background-color:#ad0987;
-
+  position:center;
+  vertical-align: bottom;
 }
-
-
 
 img:hover
 {
@@ -75,12 +69,6 @@ img:hover
   margin-bottom:1%;
 }
 
-.sport img
-{
-  position:center;
-  width:100%;
-  height:auto;
-}
 
 /*  Diven med kontakt */
 
@@ -93,11 +81,6 @@ img:hover
   
 }
 
-.kontakt img
-{
-  width:100%;
-  height:auto;
-}
 
 
 
@@ -111,19 +94,11 @@ img:hover
   float:left;
   margin-left:12.5%;
   margin-right:1%;
- 
-
-
+  background-color:blue;
 
 }
 
-.hobby img
-{
 
-
-  width:100%;
-  height:auto;
-}
 
 
 /* Test div*/
@@ -131,21 +106,16 @@ img:hover
 {
   width:33%;
   height:auto;
-  margin-top:0;
+  margin-top:-5%;
   float:right;
   margin-right:14.5%;
   margin-bottom:-0.5%;
+  background-color:yellow;
 
   
 }
 
-.test img
-{
 
-  width:100%;
-  height:auto;
-  position: center;
-}
 
 /* Søk div */
 .sok
@@ -167,39 +137,65 @@ img:hover
 input[type="text"]
 {
   width:70%;
+  margin-left:2%;
+  margin-right:2%;
 }
 
 
 
 /* Tekst */
-.tekst
-{
- margin-left:10%;
 
-
-}
 
 h1{
   color:#FFF;
-  font-family: tahoma;
+  font-family: "BTTF";
   font-size: 3em;
   margin-top:2%;
+  margin-left:10%;
+
+
  }
  
+
+
+ /* Font-face */
+
+ @font-face {
+    font-family: 'BTTF';
+    src: url('../fonts/bttf.eot');
+    src: url('../fonts/bttf.eot') format('embedded-opentype'),
+         url('../fonts/bttf.woff') format('woff'),
+         url('../fonts/bttf.ttf') format('truetype'),
+         url('../fonts/bttf.svg#Backtothefuture2002Regular') format('svg');
+}
+
  /* Media Queries */
 
- @media (max-width: 1024px) and (min-width: 768px)
+ @media (max-width: 1024px) and (min-width: 524px) 
  {
-  #wrapper { width:70%; margin-left:15%; margin-right:15%; background-color:red;}
-  .sport { width:100%; height:200px; }
-  .random { width:100%; height:200px; margin-left:0%;}
-  #randombilde { width:100%; height: 200px;}
-  h1 { font-size: 2em;}
+  #wrapper { width:70%; margin-left:15%; margin-right:15%; }
+  .sport { width:49%; height:200px; margin-right:0px; margin-top:2%; float:right; }
+  .random { width:49%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:0px; float:left;}
+  .hobby { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
+  .test { width:49%; height:200px; margin-left:0px; margin-top:1%; margin-right:0%; float:right;}
+  .kontakt{width:49%; height:100px; clear:left;}
+  .sok{width:49%; float:right; margin-right:0%; margin-left:0%; padding-left:0%; padding-right:0%;}
+  .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
+  img { height:200px;}
+  h1 { font-size: 2em; padding-right:1%; margin-left:0%; margin-right:0%;}
  }
 
-
-@media (max-width: 360px)
+@media (max-width: 524px)
 {
+  #wrapper { width:70%; margin-left:15%; margin-right:15%; }
+  .sport { width:49%; height:200px; margin-right:0px; margin-top:2%; float:right; }
+  .random { width:49%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:0px; float:left;}
+  .hobby { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
+  .test { width:49%; height:200px; margin-left:0px; margin-top:1%; margin-right:0%; float:right;}
+  .kontakt{width:49%; height:100px; clear:left;}
+  .sok{width:49%; float:right; margin-right:0%; margin-left:0%; padding-left:0%; padding-right:0%;}
+  .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
+  img { height:200px;}
   h1 { font-size: 1em;}
 }
 
