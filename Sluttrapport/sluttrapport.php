@@ -25,7 +25,8 @@ $page= $_GET["page"];
 
 				<h2>Sluttrapport:</h2>
 			<ul>
-				<li>Sluttrapport</li>
+				<li><a href="sluttrapport.php?page=0">Sluttrapport</li>
+				<li>Ferdig produkt</li>
 				
 			</ul>
 
@@ -44,6 +45,10 @@ $page= $_GET["page"];
 	<section>
 		<?php
 			switch($page){
+
+				case 0:
+				include ("./sluttrapport.html");
+				break; 
 
 				default
 				include("./forside.html");
