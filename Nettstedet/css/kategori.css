@@ -21,7 +21,7 @@ margin-right:15%;
 }
 
 
-.facebook {
+.video {
   margin-top:5%;
   width:39%;
   margin-left:12.5%;
@@ -41,10 +41,9 @@ margin-right:15%;
   margin-bottom:1%;
   background-color: Blue;
   margin-right:1%;
-  margin-top: -15%;
 }
 
-.video {
+.kart {
   width:39%;
   margin-left:12.5%;
   float:left;
@@ -76,9 +75,9 @@ img:hover {
   width: 30%;
   margin-top:5%;
   margin-right:17.5%;
-  height:350px;
+  height:410px;
   background-color: #E60E0E;
-  float:left;
+  float:right;
   margin-bottom:1%;
   background-color: Red;
 }
@@ -86,15 +85,23 @@ img:hover {
 
 /*  Diven med kontakt */
 
-.kontakt {
+.facebook {
   width:14%;
   background-color:#04FC00;
-  float:left;
-  margin-left: 1%;
-  margin-top: -6%; 
+  float:right;
+  margin-right: 33.5%;
+  margin-top: -7%; 
+  height: 100px;
 
 
 }
+
+.linkKatSek{
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
 
 
 
@@ -102,8 +109,8 @@ img:hover {
 .test {
   width:15%;
   background-color:Yellow;
-  float:left; 
-  margin-top: -6%;
+  float:right; 
+  margin-right: 17.5%;
 
 }
 
@@ -118,6 +125,9 @@ h1 {
   margin-left:10%;
  }
  
+ #sport {
+  padding: 5px;
+ }
 
 
  /* Font-face */
@@ -133,27 +143,15 @@ h1 {
 
  /* Media Queries */
 
- @media (max-width: 1024px) and (min-width: 524px)  {
+@media (max-width: 900px)
+{
   #wrapper { width:70%; margin-left:15%; margin-right:15%; }
-  .tekst { width:49%; height:200px; margin-right:0px; margin-top:2%; float:right; }
-  .facebook { width:49%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:0px; float:left;}
-  .bilder { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
-  .video { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
-  .test { width:49%; height:200px; margin-left:0px; margin-top:1%; margin-right:0%; float:right;}
-  .kontakt{width:49%; height:100px; clear:left;}
-  .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
-  img { height:200px;}
-  h1 { font-size: 2em; padding-right:1%; margin-left:0%; margin-right:0%;}
- }
-
-@media (max-width: 524px) {
-  #wrapper { width:70%; margin-left:15%; margin-right:15%; }
-  .tekst { width:49%; height:200px; margin-right:0px; margin-top:2%; float:right; }
-  .facebook { width:49%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:0px; float:left;}
-  .bilder { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
-  .video { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
-  .test { width:49%; height:200px; margin-left:0px; margin-top:1%; margin-right:0%; float:right;}
-  .kontakt{width:49%; height:100px; clear:left;}
+  .facebook { width:100%; height:200px; margin-left: 0%; margin-top:2%; margin-bottom:1%;float:left; }
+  .bilder { width:100%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:1%; float:left;}
+  .video { width:100%; height:200px; margin-left:0%; margin-top:2%; float:left; margin-bottom:1%;}
+  .test { width:100%; height:200px; margin-left:0px; margin-top:2%; margin-right:0%; float:left; margin-bottom:1%;}
+  .kart{width:100%; height:100px; float:left; margin-top:2%; margin-bottom:1%; margin-left: 0%;}
+  .tekst{width:100%; float:left; margin-right:0%; margin-left:0%; margin-top:2%; padding-left:0%; padding-right:0%;}
   .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
   img { height:200px;}
   h1 { font-size: 1em;}
