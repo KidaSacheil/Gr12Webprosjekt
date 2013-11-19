@@ -77,7 +77,9 @@ img:hover
 .kontakt
 {
   width:15%;
-  background-color:#04FC00;
+  background:url('../bilder/medtekst/Mail-medtekst.jpg');
+  background-size:cover;
+  background-position: center;
   float:left;
   margin-top:1%;
   
@@ -115,9 +117,9 @@ img:hover
   float:right;
   margin-right:14.5%;
   margin-bottom:-0.5%;
-  background-color:yellow;
-
-  
+  background: url('../bilder/medtekst/quiz-medtekst.jpg');
+  background-size: cover;
+  background-position: right;
 }
 
 
@@ -176,21 +178,20 @@ h1{
 
  /* Media Queries */
 
- @media (max-width: 1024px) and (min-width: 640px) 
+ @media(max-width: 1024px) and (min-width: 640px) 
  {
   #wrapper { width:70%; margin-left:15%; margin-right:15%; }
   .sport { width:49%; height:200px; margin-right:0px; margin-top:2%; float:right; }
   .random { width:49%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:0px; float:left;}
   .hobby { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left; }
   .test { width:49%; height:200px; margin-left:0px; margin-top:1%; margin-right:0%; float:right;}
-  .kontakt{width:49%; height:100px; clear:left;}
+  .kontakt{width:49%; height:100px; clear:left; }
   .sok{width:49%; float:right; margin-right:0%; margin-left:0%; padding-left:0%; padding-right:0%;}
-  .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
   img { height:200px; opacity:0;}
   h1 { font-size: 2em; padding-right:1%; margin-left:0%; margin-right:0%;}
  }
 
-@media (max-width: 640px) and (min-width: 0px)
+@media screen(max-width: 640px) and (min-width: 0px)
 {
   #wrapper { width:70%; margin-left:15%; margin-right:15%; }
   .sport { width:100%; height:200px; margin-right:0px; margin-top:2%; margin-bottom:1%;float:left; }
@@ -199,8 +200,7 @@ h1{
   .test { width:100%; height:200px; margin-left:0px; margin-top:2%; margin-right:0%; float:left; margin-bottom:1%;}
   .kontakt{width:100%; height:100px; clear:left; margin-top:2%; margin-bottom:1%;}
   .sok{width:100%; float:left; margin-right:0%; margin-left:0%; margin-top:2%; padding-left:0%; padding-right:0%;}
-  .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
-  img { height:200px;}
+  img { height:200px; opacity:0;}
   h1 { font-size: 1em;}
 }
 
