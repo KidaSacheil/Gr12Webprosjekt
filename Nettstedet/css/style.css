@@ -24,36 +24,6 @@ margin-right:15%;
 }
 
 
-<<<<<<< HEAD:Nettstedet/css/style_sport.css
-.medier
-{
-  margin-top:10%;
-  width:30%;
-  height: 535px;
-  background-color: Purple;
-  margin-left:10%;
-  float:left;
- 
-}
-
-.medier2
-{
-  margin-top:10%;
-  width:30%;
-  height: 267px;
-  background-color: Purple;
-  margin-left:10%;
-  float:left;
- 
-}
-
-.medier p {
-  margin-left: 5%;
-}
-
-
-.info
-=======
 /* Diven, der det randommet innholdet vises */
 .random 
 {
@@ -89,35 +59,20 @@ img:hover
 
 /* Diven med sport */
 .sport
->>>>>>> 12674511d189b1be800ab2589b18006e1f7a1805:Nettstedet/css/style.css
 {
   width: 30%;
   margin-top:5%;
-<<<<<<< HEAD:Nettstedet/css/style_sport.css
-  height:535px;
-  background-color: Gainsboro;
-=======
   margin-right:17.5%;
   height:auto;
   background-color: #E60E0E;
->>>>>>> 12674511d189b1be800ab2589b18006e1f7a1805:Nettstedet/css/style.css
   float:left;
   margin-bottom:1%;
 }
 
-<<<<<<< HEAD:Nettstedet/css/style_sport.css
-.info p {
-  margin-left: 5%;
-}
-
-
-.test
-=======
 
 /*  Diven med kontakt */
 
 .kontakt
->>>>>>> 12674511d189b1be800ab2589b18006e1f7a1805:Nettstedet/css/style.css
 {
   width:15%;
   background-color:#04FC00;
@@ -128,11 +83,8 @@ img:hover
 
 
 
-
 /* Hobby div */
 
-<<<<<<< HEAD:Nettstedet/css/style_sport.css
-=======
 .hobby
 {
 /* margin-top:-7.5%;*/
@@ -187,7 +139,6 @@ input[type="text"]
   margin-left:2%;
   margin-right:2%;
 }
->>>>>>> 12674511d189b1be800ab2589b18006e1f7a1805:Nettstedet/css/style.css
 
 
 
