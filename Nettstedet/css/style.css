@@ -94,7 +94,8 @@ img:hover
   float:left;
   margin-left:12.5%;
   margin-right:1%;
-  background-color:blue;
+  background: url("../bilder/medtekst/hobby-bla-medtekst.jpg");
+  background-size: cover;
 
 }
 
@@ -176,7 +177,7 @@ h1{
   #wrapper { width:70%; margin-left:15%; margin-right:15%; }
   .sport { width:49%; height:200px; margin-right:0px; margin-top:2%; float:right; }
   .random { width:49%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:0px; float:left;}
-  .hobby { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
+  .hobby { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left; }
   .test { width:49%; height:200px; margin-left:0px; margin-top:1%; margin-right:0%; float:right;}
   .kontakt{width:49%; height:100px; clear:left;}
   .sok{width:49%; float:right; margin-right:0%; margin-left:0%; padding-left:0%; padding-right:0%;}
