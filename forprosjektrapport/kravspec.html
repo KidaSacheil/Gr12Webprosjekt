@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE! html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -6,31 +6,34 @@
 <body>
 <h2>Kravspesifikasjon</h2>
 <strong>Forside</strong><br>
-På forsiden har man tre hovedvalg. Den består av tre stående bilder, hvert bilde med sin funksjon. Bildet til venstre linker deg videre til undersiden “Sport, bildet i midten linker deg videre til “Testen” og bildet til høyre linker deg videre til “Hobby”. 
+Nettstedet har en minimalistisk utforming. Storparten av designflaten på forsiden består av tre bilder i stående format som representerer tre kategorivalg brukeren kan interagere med. Bildet til venstre linker deg videre til undersiden «Sport», bildet i midten linker deg videre til å ta «Testen» og bildet til høyre linker deg videre til «Hobby».
 <br><br>
-Nederst finnes det et søkefelt som lar deg søke gjennom nettstedets innhold, og linker til Facebook- og Twittersiden.
+Øverst på siden finner vi nettstedets logo og navn. Nederst plasseres et søkefelt som lar brukeren søke gjennom nettstedets innhold, samt linker til sosiale medier, kontaktinformasjon og snarvei for validering av koden.
 <br><br>
 <strong>Mellomside</strong><br>
-En mellomside for enten Sport eller Hobby er delt opp i en article-tag og en aside-tag pakket sammen i en section-tag. Helt til venstre på en mellomside (sport eller hobby - article-taggen), under headeren, får man underkategorier. Gitt at man er inne på mellomsiden for sport, så får man underkategorier slik som ballsport, motorsport eller ski listet opp på venstre side under headeren. Man kan deretter trykke på en kategori og en liste med sporter innenfor denne kategorien blir listet opp. Man vil da kunne få muligheten til å klikke seg inn på en sport for å lese mer.
+En mellomside for enten Sport eller Hobby er delt opp i et article-element og et aside-element, pakket sammen i et section-element. Helt til venstre på en mellomside (Sport eller Hobby – article-element), under headeren, finner man underkategoriene.
 <br><br>
-I den midterste og høyre delen av en mellomside (inne i aside-taggen) vil det ligge 4 bilder og en video tilfeldig valgt ut fra fem forskjellige sporter som ligger på nettstedet. (Hobbyer vil ikke dukke opp her). Man vil kunne trykke seg inn på et av bildene for å komme til sporten som bildene illustrerer. 
+Eksempel: Hvis brukeren befinner seg på mellomsiden for sport, så kan vedkommende for eksempel finne underkategorier som ballsport, motorsport eller ski listet opp på venstre side under headeren (bare eksempler – de faktiske kategoriene vil være knyttet til aktivitetene nettsiden inneholder). Brukerne kan deretter trykke på en kategori, så vises det en liste med idretter innenfor denne kategorien. Her kan brukeren klikke og velge idretten for å gå videre til den aktuelle siden.
 <br><br>
-Til venstre i headeren ligger det en tilbakeknapp slik at du kommer tilbake til forsiden.
+I den midterste og høyre delen av en mellomside (inne i aside-elementet) ligger det fire bilder og en video tilfeldig valgt ut fra forskjellige idretter som ligger på nettstedet (hobbyer dukker ikke opp her på en sportsside, og omvendt). Brukeren kan trykke på et av bildene for å komme til sporten som bildet illustrerer.
+<br><br>
+Til venstre i headeren ligger det en tilbakeknapp, slik at du kan gå tilbake til forsiden.
 <br><br>
 <strong>Innholdsside</strong><br>
-En innholdsside vil ha lik layout som en mellomside, men med annet innhold. Gitt at man nå har trykket seg inn på fotball fra mellomsiden for sport:
+En innholdsside har samme CSS-layout (videreføring av globalt rammeverk) som en mellomside, men med annet innhold. Hvis brukeren klikker på «Gokart» fra mellomsiden for sport, vil vedkommende se følgende:
 <br><br>
-Til venstre i siden i article-taggen vil man øverst kunne lese litt generell info om sporten. Denne teksten har sin egen boks, med en les mer-knapp om det skulle være nødvendig (mtp. mengde tekst). Under teksten, helt nederst på venstre side vil man ha en knapp for “Regler” og en “Hvor?”-knapp, begge med en toggle-funksjon. Ved å trykke på en av disse knappene vil det komme tekst som inneholder regler eller “hvor finner jeg denne sporten” som overlapper teksten med generell info.
+Til venstre på siden i article-elementet kan brukeren øverst lese litt generell info om sporten. Denne teksten har sin egen boks, med en «Les mer»-knapp (toggle), om nødvendig. Under teksten, helt nederst på venstre side finner vi knapper for «Regler» og en «Hvor?», begge benytter JQuery-funksjonen «toggle()». Hvis brukeren trykker på en av disse knappene, vises det tekst som inneholder henholdsvis idrettens grunnleggende regler eller informasjon om hvordan vedkommende kan komme i gang eller henvende videre seg for å utøve den aktuelle idretten.
 <br><br>
-På midten i en innholdsside vil man få opp tre bilder av valgt sport (altså tre bilder av sporten fotball, ettersom dette er valgt). Disse bildene vil ha en hover-funksjon, altså at bildene i utgangspunktet er litt mørkere enn orginalbildet, og ved å holde over et bilde blir det lysere.
+På midten av innholdssiden vises tre illustrasjoner av den aktuelle idretten som kan gi brukeren en visuell forsmak på idretten. Disse bildene har en hover/mouseover-funksjon som fremhever interaksjonen, dvs. at bildene i utgangspunktet er litt mørkere enn orginalbildet, og ved å holde musepekeren over et bilde, blir det lysere.
 <br><br>
-Til høyre vil man øverst ha en Facebook-feed fra en relevant facebookside for valgt sport (f.eks Norges fotballandslag i denne sammenheng). Under denne feeden ligger det en video av sporten.
+Til høyre finner man øverst en Facebook-modul eller -feed fra en relevant Facebook-side for den aktuelle idretten (f.eks. Norges Bilsportforbund for gokart). Under denne feeden ligger det en relevant YouTube-video om sporten.
 <br><br>
 <strong>Testen</strong><br>
-Fra forsiden kan man, som beskrevet under punktet “Forsiden”, trykke seg inn på “Test”. Dette er en side hvor brukeren kan finne ut hvilken sport/hobby som passer han/henne. 
+Fra forsiden kan man, som beskrevet under punktet «Forsiden», velge å ta en test i stedet for å gå direkte til sport eller hobby. Dette er en side hvor brukeren kan finne ut hvilken aktivitet som passer best for vedkommendes interesser. 
 <br><br>
-Forsiden for testen er delt opp i to deler, høyre og venstre, i to stående elementer. Ett element for hobby, og ett for sport. Gitt at man velger sport, kommer man til en ny side der man velger om man vil drive med en innendørs- eller utendørssport. Velger man utendørs, blir man sendt videre der man kan velge mellom sosialt eller individuelt. Velger man sosialt, får man videre et valg om man vil drive med en sport som har med konstentrasjon eller kondisjon å gjøre. Velger man for eksempel kondisjon, får man muligheten til å velge mellom om man har høyt eller lavt budsjett. Deretter får man opp to alternativer som passer til hva man har valgt. I backend-koden har hvert svaralternativ en bestemt verdi, og alle verdiene blir til slutt utregnet slik at brukeren får et passende svaralternativ (det alternativet som i koden har størst samsvar med brukerens preferanser).
+Forsiden for testen er delt opp i to vertikale deler: ett element for hobby, og ett for sport. Hvis brukeren velger sport, kommer hun til en ny side der hun velger om hun vil drive med en innendørs- eller utendørssport. Velger hun utendørs, blir hun sendt videre til et spørsmål om sosial eller individuell aktivitet. Velger hun sosialt, får hun videre et valg om hun vil drive med en sport som har med konstentrasjon eller kondisjon å gjøre. Velger hun for eksempel kondisjon, får hun muligheten til å velge mellom hvorvidt hun har høyt eller lavt budsjett å avse for den nye fritidsaktiviteten. Deretter får hun opp en resultatside med de aktiviteten som passer til valgene hun har foretatt. I backend-koden tildeler hvert svaralternativ aktivitetene bestemte poengverdier, og testen rangerer således aktivitetene utifra samsvar med brukerens svar.
 <br><br>
-Poenget med testen er at man alltid har to valg på hvert spørsmål, og til slutt står igjen med tre alternativer (1. plass, 2. plass og 3. plass). Disse er rangert etter relevans; førsteplass til den mest relevante aktiviteten, andre til den nest mest relevante, og tredje til den tredje mest relevante aktiviteten utifra testresultatene. Man kan velge å trykke seg inn på 1., 2. eller 3.plass og deretter bli sendt videre til den valgte sporten sin innholdsside (mer om innholdssider under punkt “Innholdsside” lenger opp).
+På resultatsiden blir brukeren møtt med en seierspall som illustrerer de tre aktivitetene som passet best utfra testsvarene. Her kan vedkommende fritt velge å trykke seg inn på 1., 2. eller 3.plass, og blir deretter sendt videre til den aktuelle sportens innholdsside (mer om innholdssider under punktet «Innholdsside» lenger oppe på siden).
 </body>
 </html>
+

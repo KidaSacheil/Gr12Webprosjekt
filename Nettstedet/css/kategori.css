@@ -1,0 +1,160 @@
+* {
+  padding:0px;
+  margin:0px;
+}
+
+
+body {
+  background: url('../bilder/ghost-tile.jpg');
+  width:100%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+
+/* Wrapperen er formen rundt, avgjør hvor bredt området på siden skal være, og midstiller. */
+#wrapper {
+width: 70%;
+padding-top: 0%;
+margin-left:15%;
+margin-right:15%;
+}
+
+
+.facebook {
+  margin-top:5%;
+  width:39%;
+  margin-left:12.5%;
+  float:left;
+  height:200px;
+  margin-bottom:1%;
+  background-color: CornflowerBlue;
+  margin-right:1%;
+}
+
+
+.bilder {
+  width:39%;
+  margin-left:12.5%;
+  float:left;
+  height:200px;
+  margin-bottom:1%;
+  background-color: Blue;
+  margin-right:1%;
+  margin-top: -15%;
+}
+
+.video {
+  width:39%;
+  margin-left:12.5%;
+  float:left;
+  height:200px;
+  margin-bottom:1%;
+  background-color: Grey;
+  margin-right:1%;
+
+}
+
+
+img {
+  width:100%;
+  height:auto;
+  position:center;
+  vertical-align: bottom;
+}
+
+
+img:hover {
+  width:100%;
+  height:auto;
+  opacity: 0;
+}
+
+
+/* Diven med tekst */
+.tekst {
+  width: 30%;
+  margin-top:5%;
+  margin-right:17.5%;
+  height:350px;
+  background-color: #E60E0E;
+  float:left;
+  margin-bottom:1%;
+  background-color: Red;
+}
+
+
+/*  Diven med kontakt */
+
+.kontakt {
+  width:14%;
+  background-color:#04FC00;
+  float:left;
+  margin-left: 1%;
+  margin-top: -6%; 
+
+
+}
+
+
+
+/* Test div*/
+.test {
+  width:15%;
+  background-color:Yellow;
+  float:left; 
+  margin-top: -6%;
+
+}
+
+
+/* Tekst */
+
+h1 {
+  color:#FFF;
+  font-family: "BTTF";
+  font-size: 3em;
+  margin-top:2%;
+  margin-left:10%;
+ }
+ 
+
+
+ /* Font-face */
+
+ @font-face {
+    font-family: 'BTTF';
+    src: url('../fonts/bttf.eot');
+    src: url('../fonts/bttf.eot') format('embedded-opentype'),
+         url('../fonts/bttf.woff') format('woff'),
+         url('../fonts/bttf.ttf') format('truetype'),
+         url('../fonts/bttf.svg#Backtothefuture2002Regular') format('svg');
+}
+
+ /* Media Queries */
+
+ @media (max-width: 1024px) and (min-width: 524px)  {
+  #wrapper { width:70%; margin-left:15%; margin-right:15%; }
+  .tekst { width:49%; height:200px; margin-right:0px; margin-top:2%; float:right; }
+  .facebook { width:49%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:0px; float:left;}
+  .bilder { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
+  .video { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
+  .test { width:49%; height:200px; margin-left:0px; margin-top:1%; margin-right:0%; float:right;}
+  .kontakt{width:49%; height:100px; clear:left;}
+  .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
+  img { height:200px;}
+  h1 { font-size: 2em; padding-right:1%; margin-left:0%; margin-right:0%;}
+ }
+
+@media (max-width: 524px) {
+  #wrapper { width:70%; margin-left:15%; margin-right:15%; }
+  .tekst { width:49%; height:200px; margin-right:0px; margin-top:2%; float:right; }
+  .facebook { width:49%; height:200px; margin-left:0%; margin-top:2%; margin-bottom:0px; float:left;}
+  .bilder { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
+  .video { width:49%; height:200px; margin-left:0%; margin-top:2%; float:left;}
+  .test { width:49%; height:200px; margin-left:0px; margin-top:1%; margin-right:0%; float:right;}
+  .kontakt{width:49%; height:100px; clear:left;}
+  .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
+  img { height:200px;}
+  h1 { font-size: 1em;}
+}
