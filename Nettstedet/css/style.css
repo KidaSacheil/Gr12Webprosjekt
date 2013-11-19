@@ -136,7 +136,7 @@ img:hover
   width: 19%;
   height:auto;
   float:right;
-  background: url('../bilder/search2.png');
+  background: url('../bilder/search2.jpg');
   background-position: center;
 
 }
@@ -191,7 +191,7 @@ h1{
   h1 { font-size: 2em; padding-right:1%; margin-left:0%; margin-right:0%;}
  }
 
-@media only screen (max-width: 640px) and (min-width: 0px)
+@media (max-width: 640px) and (min-width: 0px)
 {
   #wrapper { width:70%; margin-left:15%; margin-right:15%; }
   .sport { width:100%; height:200px; margin-right:0px; margin-top:2%; margin-bottom:1%;float:left; }
