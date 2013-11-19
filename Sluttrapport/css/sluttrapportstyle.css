@@ -1,0 +1,29 @@
+body {
+	background-color: #999;
+}
+
+
+#wrapper
+{
+	background:white;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	overflow:hidden;
+}
+
+nav
+{
+float:left;
+margin-right:5%;
+margin-left:2%;
+margin-top:1%;
+margin-bottom:1%;
+padding-right:1%;
+border-right:solid black 1px;
+}
+
+section
+{
+
+}
