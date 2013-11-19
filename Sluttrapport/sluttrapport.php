@@ -1,5 +1,5 @@
 <?php
-$page= $_GET["page"];
+$page=$_GET["page"];
 
 ?><!DOCTYPE HTML>
 <html>
@@ -50,7 +50,7 @@ $page= $_GET["page"];
 				include ("./sluttrapport.html");
 				break; 
 
-				default
+				default:
 				include("./forside.html");
 				break;
 			}
