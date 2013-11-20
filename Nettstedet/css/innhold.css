@@ -74,10 +74,17 @@ img:hover {
   width: 30%;
   margin-top:5%;
   margin-right:17.5%;
+<<<<<<< HEAD
   height:350px;
   float:right;
   background-color: Red;
   margin-bottom: 4%;
+=======
+  height:300px;
+  float:right;
+  background-color: Red;
+  margin-bottom: 0%;
+>>>>>>> 9a2063b9f220f76f2c78940c44d76c6edfe7a8e0
 }
 
 
@@ -86,9 +93,15 @@ img:hover {
 .kontakt {
   width:30%;
   background-color:#04FC00;
+<<<<<<< HEAD
   float:left;
   margin-left: 0%;
   margin-top: -3%; 
+=======
+  float:right;
+  margin-right: 17.5%;
+  margin-top: 1%; 
+>>>>>>> 9a2063b9f220f76f2c78940c44d76c6edfe7a8e0
 
 
 }

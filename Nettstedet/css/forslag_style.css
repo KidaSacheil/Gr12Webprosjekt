@@ -1,0 +1,89 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+body
+{
+    background: url('../bilder/ghost-tile.jpg');
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* Wrapperen er formen rundt, avgjør hvor bredt området på siden skal være, og midstiller. */
+#wrapper {
+
+    width: 70%;
+    padding-top: 0%;
+    margin-left:15%;
+    margin-right:15%;
+
+}
+
+#container
+{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:2%;
+    padding-bottom:5%; 
+   background-color: green;
+}
+
+form  {
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+
+
+}
+
+/* Tekst */
+
+
+h1{
+    color:#FFF;
+    font-family: "BTTF";
+    font-size: 3em;
+    margin-top:2%;
+    margin-bottom:1%;
+    text-align:center;
+
+ }
+ 
+ h2 {
+    color:#FFF;
+    font-family:'CenturyGothic';
+    font-size: 1em;
+    text-align:center;
+ }
+
+ h3 {
+    color:#FFF;
+    font-family: 'CenturyGothic';
+    font-size: 0.8em;
+    }
+
+
+ /* Font-face */
+
+ @font-face {
+    font-family: 'BTTF';
+    src: url('../fonts/bttf.eot');
+    src: url('../fonts/bttf.eot') format('embedded-opentype'),
+         url('../fonts/bttf.woff') format('woff'),
+         url('../fonts/bttf.ttf') format('truetype'),
+         url('../fonts/bttf.svg#Backtothefuture2002Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../fonts/gothic.eot');
+    src: url('../fonts/gothic.eot') format('embedded-opentype'),
+         url('../fonts/gothic.woff') format('woff'),
+         url('../fonts/gothic.ttf') format('truetype'),
+         url('../fonts/gothic.svg#CenturyGothicRegular') format('svg');
+}
+
