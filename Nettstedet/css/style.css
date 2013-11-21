@@ -55,8 +55,12 @@ img:hover
 {
   width:100%;
   height:auto;
- opacity: 0;
- 
+  opacity: 0;
+  -webkit-transition: 300ms ease;
+  -moz-transition: 300ms ease;
+  -ms-transition: 300ms ease;
+  -o-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 
