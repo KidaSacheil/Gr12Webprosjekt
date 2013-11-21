@@ -22,12 +22,13 @@ margin-right:15%;
 
 
 .facebook {
+  margin-top:5%;
   width:39%;
   margin-left:12.5%;
   float:left;
   height:200px;
-  margin-top:1%;
-  background-color: Grey;
+  margin-bottom:1%;
+  background-color: CornflowerBlue;
   margin-right:1%;
 }
 
@@ -42,15 +43,12 @@ margin-right:15%;
 }
 
 .video {
-
-
-    margin-top:5%;
   width:39%;
   margin-left:12.5%;
   float:left;
   height:200px;
-  margin-bottom:1%;
-  background-color: CornflowerBlue;
+  margin-top:1%;
+  background-color: Grey;
   margin-right:1%;
 
 }
