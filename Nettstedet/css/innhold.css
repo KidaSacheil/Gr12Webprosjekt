@@ -34,13 +34,14 @@ margin-right:15%;
 
 .bilder {
   width:39%;
+  max-width: 100%;
   margin-left:12.5%;
   float:left;
-  height:200px;
+  height: auto;
   margin-bottom:1%;
   background-color: Blue;
   margin-right:1%;
-  position: relative;
+  
 }
 
 .gjemt {
