@@ -122,11 +122,11 @@ img {
 /*  Diven med kontakt */
 
 .facebook {
-  width:14%;
+  width:15%;
   background-color:Gainsboro;
   float:right;
-  margin-right: 33.5%;
-  margin-top: -7%; 
+  margin-right: 32.5%;
+  margin-top: -6.5%; 
   height: 100px;
 
 
@@ -142,7 +142,7 @@ img {
 
 /* Test div*/
 .test {
-  width:15%;
+  width:14%;
   background: url('../bilder/medtekst/quiz-medtekst.jpg');
   background-size: cover;
   background-position: right;
