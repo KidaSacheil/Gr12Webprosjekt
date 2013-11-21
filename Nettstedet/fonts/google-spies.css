@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'GooglespiesRegular';
+    src: url('google-spies.eot');
+    src: url('google-spies.eot') format('embedded-opentype'),
+         url('google-spies.woff') format('woff'),
+         url('google-spies.ttf') format('truetype'),
+         url('google-spies.svg#GooglespiesRegular') format('svg');
+}

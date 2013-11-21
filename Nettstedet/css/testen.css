@@ -1,60 +1,94 @@
-.spmHead{
-position: relative;
+/*FONTAR*/
+@font-face
+{
+font-family: spies;
+src: url("../fonts/google-spies.woff");
+}
+
+@font-face
+{
+font-family: bttf;
+src: url("../fonts/bttf.woff");
 }
 
 body{
 background-color: black;	
 }
 
-h1{
+.spmHead{
+line-height: 50px;
+position: relative;
+height:50px;
+margin-bottom: 50px;
+background-color:white;
+}
+
+#h1{
 text-align: center;
-background-color: yellow;
-opacity: 0.6;
-font-family: Arial;
+font-family: bttf;
+color:yellow;
+background-color: black;
+}
+
+.spmClass{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+height: 50%;
+line-height: 10em;
+text-align: center;
 }
 
 #spmSvarA{
+width:40%;
+float:left;
+padding:5%;
 background-color: red;
-opacity: 0.6;
+opacity: 0.8;
+font-family: spies;
+font-weight: bolder;
+font-size: 4em;
 }
 
 #spmSvarB{
-background-color: green;	
-opacity: 0.6;
-}
 
-.spm{
-position: relative;
+width:40%;
 float:left;
-height: 500px;
-line-height: 500px;
-width:50%;
-text-align: center;
-font-family: Arial;
+padding:5%;
+background-color: mediumblue;	
+opacity: 0.8;
+font-family: spies;
 font-weight: bolder;
-font-size: 5.5em;
+font-size: 4em;
 }
 
-#aktivBest{
-	margin-top:20%;
+#velkommen{
+padding:5%;
+background-color: yellow;
+text-align: center;
+font-family: "spies";
+font-weight: bolder;
+font-size: 4em;
 }
 
-#resID{
-	display:none;
-	margin-top: 10%;
-	height: 100px;
-	line-height: 100px;
-	width:100%;
-	text-align: center;
-	background-color:yellow;
-	color:black;
-	font-size: 4em;
-}
+.res{
+display:none;
+padding:5%;
+background-color: yellow;
+text-align: center;
+font-family: "spies";
+font-weight: bolder;
+font-size: 5em;
+color:black;
+line-height:1em; /* Wow – dette funkar visst veldig bra som vertical align for fleire linjer med tekst?!*/
+}	
 
 #resOversikt{
-	margin-top: 10%;
+	position: absolute;
 	display:none;
 	color:red;
-	font-style: italic;
-	float:right;
+	right:1%;
+	top:1%;
 	font-size: 0.7em;
+}

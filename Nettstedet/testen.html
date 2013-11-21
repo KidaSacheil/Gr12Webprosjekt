@@ -12,15 +12,20 @@
 <?php
 ?>
 <div class="spmHead" id="testOverskrift">
-<h1>Test: Spørsmål 1</1>
+<h1 id="h1">x</h1>
 </div>
-<span class="spmSpan">
-<div class="spm" id="spmSvarA" onclick="svarA()">Sport</div>
-<div class="spm" id="spmSvarB" onclick="svarB()">Hobby</div>
-<div id="resID"></div>
+
+<div class="spmClass">
+<div id="velkommen" onclick="startTest()">Test deg selv!</div>
+<span id="spmSvarA" onclick="svarA()">Sport</span>
+<span id="spmSvarB" onclick="svarB()">Hobby</span>
+
+<div class ="res" id="resID" onclick="gotoAkt()"><span id="akt1stID"></span></div>
+</div>
+
 <div id="resOversikt"></div>
-</span>
 
 </body>
+<script>velkommen();</script>
 
 </html>
