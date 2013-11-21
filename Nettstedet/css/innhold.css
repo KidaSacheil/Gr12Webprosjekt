@@ -53,6 +53,17 @@ margin-right:15%;
 
 }
 
+.kart {
+  width:39%;
+  margin-left:12.5%;
+  float:left;
+  height:auto;
+  margin-bottom:1%;
+  background-color: Grey;
+  margin-right:1%;
+
+}
+
 
 img {
   width:100%;
