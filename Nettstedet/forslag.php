@@ -35,8 +35,8 @@
 			</tr>
 			<tr>
 				<td>
-				 <input type="radio" name="type" value="Hobby"><h3>Hobby</h3></td>
-				<td></td><td><input type="radio" name="type" value="Sport"><h3>Sport</h3></td>
+				<h3>Hobby</h3> <input type="radio" name="type" value="Hobby"></td>
+				<td><h3>Sport</h3></td><td><input type="radio" name="type" value="Sport"></td>
 
 				<tr><td><h3>Beskriv aktiviteten:</h3></td></tr>
 			<tr><td>
@@ -58,6 +58,14 @@
 				<input type="submit" name="submit" value="Send">
 
 	</form>
+<?php
+	if(isset($_REQUEST['submit']))
+	{
+		echo "Takk for ditt bidrag! Ditt forslag har blitt sendt!";
+	}
+
+?>
+
 </div>
 
 </div>
