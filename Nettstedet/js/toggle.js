@@ -8,3 +8,4 @@ som henter alle div-ene i kategoriDiv. eq-funksjonen henter indeksen i objektet 
    
 });
 });
+

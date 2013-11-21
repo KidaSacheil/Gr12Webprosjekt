@@ -74,7 +74,7 @@ img:hover {
   width: 30%;
   margin-top:5%;
   margin-right:17.5%;
-  height:auto;
+  height:350px;
   float:right;
   background-color: Gainsboro;
   margin-bottom: 4%;
@@ -133,7 +133,7 @@ h1 {
   margin-left:10%;
  }
  
- #orientering {
+ #tekst {
   padding: 5px;
  }
 
