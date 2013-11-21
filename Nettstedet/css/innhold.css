@@ -74,17 +74,11 @@ img:hover {
   width: 30%;
   margin-top:5%;
   margin-right:17.5%;
-<<<<<<< HEAD
-  height:350px;
+  height:auto;
   float:right;
-  background-color: Red;
+  background-color: Gainsboro;
   margin-bottom: 4%;
-=======
-  height:300px;
-  float:right;
-  background-color: Red;
-  margin-bottom: 0%;
->>>>>>> 9a2063b9f220f76f2c78940c44d76c6edfe7a8e0
+
 }
 
 
@@ -93,19 +87,19 @@ img:hover {
 .kontakt {
   width:30%;
   background-color:#04FC00;
-<<<<<<< HEAD
   float:left;
   margin-left: 0%;
   margin-top: -3%; 
-=======
-  float:right;
-  margin-right: 17.5%;
-  margin-top: 1%; 
->>>>>>> 9a2063b9f220f76f2c78940c44d76c6edfe7a8e0
 
 
 }
 
+
+.linkKatSek{
+  position: relative;
+  float: left;
+  padding: 5px;
+}
 
 
 /* Søk div */
@@ -139,6 +133,9 @@ h1 {
   margin-left:10%;
  }
  
+ #orientering {
+  padding: 5px;
+ }
 
 
  /* Font-face */
@@ -152,11 +149,12 @@ h1 {
          url('../fonts/bttf.svg#Backtothefuture2002Regular') format('svg');
 }
 
+
  /* Media Queries */
 
 
 
-@media (max-width: 524px)
+@media (max-width: 900px)
 {
   #wrapper { width:70%; margin-left:15%; margin-right:15%; }
   .facebook { width:100%; height:200px; margin-left: 0%; margin-top:2%; margin-bottom:1%;float:left; }
