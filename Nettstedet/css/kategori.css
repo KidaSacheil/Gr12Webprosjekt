@@ -159,6 +159,16 @@ h1 {
   margin-left:10%;
  }
  
+
+a {
+  color: #000000;
+
+}
+
+a:visited
+{
+  color: #000000;
+}
  #sport {
   padding: 5px;
  }
@@ -182,6 +192,15 @@ small {
          url('../fonts/bttf.woff') format('woff'),
          url('../fonts/bttf.ttf') format('truetype'),
          url('../fonts/bttf.svg#Backtothefuture2002Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../fonts/gothic.eot');
+    src: url('../fonts/gothic.eot') format('embedded-opentype'),
+         url('../fonts/gothic.woff') format('woff'),
+         url('../fonts/gothic.ttf') format('truetype'),
+         url('../fonts/gothic.svg#CenturyGothicRegular') format('svg');
 }
 
  /* Media Queries */
