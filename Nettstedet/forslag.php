@@ -32,6 +32,7 @@
 				<td>
 				<h3>Velg type: </h3>
 				</td>
+			
 			</tr>
 			<tr>
 				<td>
