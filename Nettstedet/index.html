@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-
  </head>
-  
   
   <body>
   
@@ -16,11 +14,11 @@
 
 
     <h1>fritidsmaskin</h1>
-      <div class="random"> <img src="./bilder/strikking_purple.jpg" alt="Random"> </div>
+      <div class="random" onclick="tilfeldigAktivitet()"> <img src="./bilder/strikking_purple.jpg" alt="Random"> </div>
       <div class="sport"><img src="./bilder/gokart-rod.jpg" alt="Sport"></div>
       
       <div class="hobby"><img src="./bilder/godmat-bla.jpg" alt="Hobby"></div>
-      <div class="test"><img src="./bilder/quiz-gul-liggende.jpg" alt="test"></div>
+      <a href="testen.html"><div class="test"><img src="./bilder/quiz-gul-liggende.jpg" alt="test"></div></a>
       
 
     
@@ -30,5 +28,9 @@
 
   </div>
   </body>
+
+<script src="./js/til_random.js">
+// Plassering her for kjapp DOM-ready-løysing; all HTML-en er teikna før skriptet startar, slik at elementa kan bli manipulert...
+</script>
 
 </html>
