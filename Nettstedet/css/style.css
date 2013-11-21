@@ -218,12 +218,8 @@ h1{
   .test { width:100%; height:200px; margin-left:0px; margin-top:2%; margin-right:0%; float:left; margin-bottom:1%;}
   .kontakt{width:100%; height:100px; clear:left; margin-top:2%; margin-bottom:1%;}
   .sok{width:100%; float:left; margin-right:0%; margin-left:0%; margin-top:2%; padding-left:0%; padding-right:0%;}
-<<<<<<< HEAD
   .kontakt img{ height:100px; width:50%; padding-left:25%; padding-right:25%;}
-  img { height:200px;}
-=======
   img { height:200px; opacity:0;}
->>>>>>> 96a49da4b18e2b42ac0dd3defd8f0e8d915135c0
   h1 { font-size: 1em;}
 }
 

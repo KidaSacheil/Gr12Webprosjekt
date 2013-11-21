@@ -142,7 +142,9 @@ img {
 /* Test div*/
 .test {
   width:15%;
-  background-color:Yellow;
+  background: url('../bilder/medtekst/quiz-medtekst.jpg');
+  background-size: cover;
+  background-position: right;
   float:right; 
   margin-right: 17.5%;
 
