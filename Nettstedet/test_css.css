@@ -1,0 +1,60 @@
+.spmHead{
+position: relative;
+}
+
+body{
+background-color: black;	
+}
+
+h1{
+text-align: center;
+background-color: yellow;
+opacity: 0.6;
+font-family: Arial;
+}
+
+#spmSvarA{
+background-color: red;
+opacity: 0.6;
+}
+
+#spmSvarB{
+background-color: green;	
+opacity: 0.6;
+}
+
+.spm{
+position: relative;
+float:left;
+height: 500px;
+line-height: 500px;
+width:50%;
+text-align: center;
+font-family: Arial;
+font-weight: bolder;
+font-size: 5.5em;
+}
+
+#aktivBest{
+	margin-top:20%;
+}
+
+#resID{
+	display:none;
+	margin-top: 10%;
+	height: 100px;
+	line-height: 100px;
+	width:100%;
+	text-align: center;
+	background-color:yellow;
+	color:black;
+	font-size: 4em;
+}
+
+#resOversikt{
+	margin-top: 10%;
+	display:none;
+	color:red;
+	font-style: italic;
+	float:right;
+	font-size: 0.7em;
