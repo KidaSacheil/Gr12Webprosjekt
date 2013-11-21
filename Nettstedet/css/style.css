@@ -31,6 +31,9 @@ margin-right:15%;
   width:24%;
   margin-left:27.5%;
   float:left;
+  background: url("../bilder/medtekst/random-medtekst.jpg"); /*bytt ut med skikkeleg random-medtekst.jpg*/
+  background-size: cover;
+  background-position: left;
   height:auto;
   margin-bottom:1%;
   background-color:#ad0987;
