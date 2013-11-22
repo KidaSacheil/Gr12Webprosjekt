@@ -1,6 +1,7 @@
 var bilder;
+//tilfeldigHobby(); // funksjonen kjører automatisk når skriptet blir lasta inn i HTML-fila
 
-//denne bare går til random side
+//denne går bare til random side på GIF-en på forsida
 function tilfeldigAktivitet(){
 var tilfeldigTall1 = Math.floor((Math.random()*8)); // Tilfeldig tall mellom 0 og 7, runda ned til nærmeste heltall
 var aktivitetar=[];
@@ -16,34 +17,47 @@ var aktivitetar=[];
 alert ("No blir du heilt tilfeldig sendt til sida for "+aktivitetar[tilfeldigTall1].navn);
 window.location.href = aktivitetar[tilfeldigTall1].url;
 }
+//random GIF-funksjon ferdig
 
-//denne bestemmer hvilket random bilde som blir vist, og bildeverdien er knyttet til spesifikk side
-function tilfeldigBilde(){
-
-var tilfeldigTall2 = Math.floor((Math.random()*8)); // Tilfeldig tall mellom 0 og 7, runda ned til nærmeste heltall
+//denne bestemmer hvilket random bilde som blir vist på Hobby-siden, og bildeverdien er knyttet til spesifikk side
+function tilfeldigHobby(){
+var tilfeldigTallH = Math.floor((Math.random()*4)); // Tilfeldig tall mellom 0 og 3, runda ned til nærmeste heltall
 bilder=[];
-	bilder[0]={navn:"petanque",bilde:"http://m9.i.pbase.com/t1/68/971468/4/146509739.IaG6SjFZ.jpg",url:"http://www.petanque.no"}
-	bilder[1]={navn:"gokart",bilde:"http://m8.i.pbase.com/t1/26/499326/4/92825838.YpQQmclD.jpg",url:"http://www.gokart.no"}
-	bilder[2]={navn:"orientering",bilde:"http://m7.i.pbase.com/t1/13/526513/4/58260767.PearBlossoms.jpg",url:"http://www.orientering.no"}
-	bilder[3]={navn:"bueskytting",bilde:"http://m3.i.pbase.com/u36/ayalofer/small/32185523.IMG_2499.jpg",url:"http://www.bueskytting.no"}
-	bilder[4]={navn:"strikking",bilde:"http://m7.i.pbase.com/u34/dinkum/small/22734917.r_PICT9540.jpg",url:"http://www.strikking.no"}
-	bilder[5]={navn:"matfoto",bilde:"http://m1.i.pbase.com/t3/60/43760/4/76568421.VT6IvtPy.jpg",url:"http://www.matfoto.no"}
-	bilder[6]={navn:"bridge",bilde:"http://m3.i.pbase.com/t1/11/37011/4/62445683.iyMkLZuT.jpg",url:"http://www.bridge.no"}
-	bilder[7]={navn:"spotting",bilde:"http://m5.i.pbase.com/t3/67/427867/4/102498205.lTLCWTLp.jpg",url:"http://www.spotting.no"}
+	bilder[0]={navn:"strikking",bilde:"./bilder/strikking.jpg",url:"strikking.html"}
+	bilder[1]={navn:"matfotografering",bilde:"./bilder/godmat.jpg",url:"matfotografi.html"}
+	bilder[2]={navn:"bridge",bilde:"./bilder/bridge.jpg",url:"bridge.html"}
+	bilder[3]={navn:"flyspotting",bilde:"./bilder/b777.jpg",url:"planespotting.html"}
+
+document.getElementById("tilfBild").src=bilder[tilfeldigTallH].bilde;
+document.getElementById("tilfBild").alt=bilder[tilfeldigTallH].navn;
+return [bilder[tilfeldigTallH].url, bilder[tilfeldigTallH].navn];
+}
+
+var tilfeldigBildeArrayH = tilfeldigHobby();
+var tilfeldigBildeArrayUrlH = tilfeldigBildeArrayH[0];
+var tilfeldigBildeArrayNamnH = tilfeldigBildeArrayH[1];
+
+function tilfeldigHobbyLink(){
+	
+	alert ("No blir du derimot sendt til sida for den tilfeldige aktiviteten du ser bilde av (når riktig bilde er på plass), altså "+tilfeldigBildeArrayNamnH);
+	window.location.href = tilfeldigBildeArrayUrlH; // return-verdien, altså url-en
+}	
+/*
+//denne bestemmer hvilket random bilde som blir vist på Sport-siden, og bildeverdien er knyttet til spesifikk side
+function tilfeldigSport(){
+
+var tilfeldigTall3 = Math.floor((Math.random()*4)); // Tilfeldig tall mellom 0 og 3, runda ned til nærmeste heltall
+bilder=[];
+
+	bilder[0]={navn:"petanque",bilde:"../Nettstedet/bilder/petanque.jpg",url:"/petanque.html"}
+	bilder[1]={navn:"gokart",bilde:"../Nettstedet/bilder/petanque.jpg",url:"/gokart.html"}
+	bilder[2]={navn:"orientering",bilde:"../Nettstedet/bilder/petanque.jpg",url:"/orientering.html"}
+	bilder[3]={navn:"bueskyting",bilde:"../Nettstedet/bilder/bueskyting.jpg",url:"/bueskyting.html"}
 
 document.getElementById("tilfBild").src=bilder[tilfeldigTall2].bilde;
 document.getElementById("tilfBild").alt=bilder[tilfeldigTall2].navn;
 return [bilder[tilfeldigTall2].url, bilder[tilfeldigTall2].navn];
 }
+*/
 
-var tilfeldigBildeArray = tilfeldigBilde();
-var tilfeldigBildeArrayUrl = tilfeldigBildeArray[0];
-var tilfeldigBildeArrayNamn = tilfeldigBildeArray[1];
-
-function tilfeldigBildeAktivitet(){
-	
-	alert ("No blir du derimot sendt til sida for den tilfeldige aktiviteten du ser bilde av (når riktig bilde er på plass), altså "+tilfeldigBildeArrayNamn);
-	window.location.href = tilfeldigBildeArrayUrl; // return-verdien, altså url-en
-}	
-
-tilfeldigBilde(); // funksjonen køyrer automatisk når skriptet blir lasta inn i HTML-fila
+tilfeldigHobby();
