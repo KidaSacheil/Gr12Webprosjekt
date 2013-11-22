@@ -27,3 +27,18 @@ function tilfeldigHobbyLink(){
 	
 	window.location.href = tilfeldigBildeArrayUrlH; // return-verdien, altså url-en
 }
+
+//denne bestemmer hvilken random video som blir vist på Hobby-siden
+function tilfeldigVideo(){
+var tilfeldigTallV = Math.floor((Math.random()*4)); // Tilfeldig tall mellom 0 og 3, runda ned til nærmeste heltall
+bilder=[];
+	bilder[0]={navn:"strikking",url:"http://www.youtube.com/embed/Fal-g2r_QmI?rel=0"}
+	bilder[1]={navn:"matfotografering",url:"http://www.youtube.com/embed/rOARrwMOQkY?rel=0"}
+	bilder[2]={navn:"bridge",url:"http://www.youtube.com/embed/E8H5oR-f1ME?rel=0"}
+	bilder[3]={navn:"flyspotting",url:"http://www.youtube.com/embed/JwsdXnuqA5w?rel=0"}
+
+document.getElementById("tilfVideo").src=bilder[tilfeldigTallV].url;
+return [bilder[tilfeldigTallV].url, bilder[tilfeldigTallV].navn];
+}
+
+tilfeldigVideo(); // må kjøres når den ikke kalles på
