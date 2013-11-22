@@ -5,10 +5,11 @@
 
 
 body {
-  background: url('../bilder/ghost-tile.jpg');
+  background: url('../bilder/bg.png');
   width:100%;
   margin-left: auto;
   margin-right:auto;
+  background-position: center;
 }
 
 
@@ -153,7 +154,7 @@ img {
 
 .rod 
 {
-  color:red;
+  color:firebrick;
 }
 
 h1 {
