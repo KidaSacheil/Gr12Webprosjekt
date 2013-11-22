@@ -93,7 +93,16 @@ img {
   vertical-align: bottom;
 }
 
-/* Hover effekter */
+#tilbake
+{
+  float:right;
+  margin-right:14.5%;
+  margin-bottom:0%;
+  margin-top:-1%;
+  width: 20%;
+
+}
+
 
 
 
@@ -107,13 +116,14 @@ img {
   margin-right:17.5%;
   height:408px;
   float:right;
+
   
 }
 
 .tekst_sport {
   background: url("../bilder/tekstbokser/rod.png");
   width: 30%;
-  margin-top:5%;
+  margin-top:2.7%;
   margin-bottom:1%;
   margin-right:17.5%;
   height:408px;
