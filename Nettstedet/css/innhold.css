@@ -158,7 +158,6 @@ img {
 /* Test div*/
 .test {
    width:14%;
-  background: url('../bilder/medtekst/quiz-medtekst.jpg');
   background-size: cover;
   background-position: right;
   float:right; 
