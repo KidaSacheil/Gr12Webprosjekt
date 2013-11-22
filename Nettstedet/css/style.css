@@ -5,10 +5,11 @@
 
 body
 {
-  background: url('../bilder/ghost-tile.jpg');
+  background: url('../bilder/bg.png');
   width:100%;
   margin-left: auto;
   margin-right:auto;
+  background-attachment: fixed;
 }
 
 /* Wrapperen er formen rundt, avgjør hvor bredt området på siden skal være, og midstiller. */
