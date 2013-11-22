@@ -14,7 +14,7 @@
 
 <div id="container">
 
-<a href="index.html"><h2>Tilbake</h2> </a>
+<div id="tilbake"><a href="./index.html"><img  src="./bilder/back-arrow2.png" alt="tilbake til forsiden - http://www.physiosouth.co.nz/files/images/content/back-arrow2.png" id="tilbake"></a></div>
 	<form action=" " method="post">
 		<table>
 			<tr>
@@ -32,16 +32,15 @@
 				<td>
 				<h3>Velg type: </h3>
 				</td>
-			
 			</tr>
 			<tr>
 				<td>
 				 <input type="radio" name="type" value="Hobby"><h3>Hobby</h3></td>
-				<td></td><td><input type="radio" name="type" value="Sport"><h3>Sport</h3></td>
+				<td><input type="radio" name="type" value="Sport"><h3>Sport</h3></td>
 
 				<tr><td><h3>Beskriv aktiviteten:</h3></td></tr>
 			<tr><td>
-				<input type="textarea" name="beskriv"></td>
+				<textarea wrap="off"></textarea></td>
 			</tr>
 			<tr>
 			
@@ -59,6 +58,7 @@
 				<input type="submit" name="submit" value="Send">
 
 	</form>
+
 <?php
 	if(isset($_REQUEST['submit']))
 	{
