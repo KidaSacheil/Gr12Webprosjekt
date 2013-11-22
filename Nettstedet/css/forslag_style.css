@@ -83,6 +83,14 @@ h1{
     font-size: 0.8em;
     }
 
+ p {
+    font-family: 'CenturyGothic';
+ }  
+
+ .padding {
+    margin-left: 10px;
+ } 
+
 
  /* Font-face */
 
