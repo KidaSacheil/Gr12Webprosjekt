@@ -106,15 +106,30 @@ img {
 
 
 /* Diven med tekst */
-.tekst {
+.tekst_hobby{
+  background: url('../bilder/tekstbokser/bla.png');
+  opacity: 0.8;
   width: 30%;
-  margin-top:5%;
+  margin-top:1%;
   margin-bottom:1%;
   margin-right:17.5%;
-  height:200px;
-  background-color: Gainsboro;
+  height:408px;
+  float:right;
+
+  
+}
+
+.tekst_sport {
+  background: url("../bilder/tekstbokser/rod.png");
+  width: 30%;
+  margin-top:1%;
+  margin-bottom:1%;
+  margin-right:17.5%;
+  height:408px;
   float:right;
 }
+
+
 
 
 /*  Diven med kontakt */
@@ -154,7 +169,7 @@ img {
 
 h1 {
   color:#FFF;
-  font-family: "BTTF";
+  font-family: "google-spies";
   font-size: 3em;
   margin-top:2%;
   margin-left:12%;
@@ -174,12 +189,12 @@ a:visited
 
 .bla 
 {
-  color:blue;
+  color:#1565B2;
 }
 
 .rod 
 {
-  color:red;
+  color:firebrick;
 }
  #sport {
   padding: 5px;
@@ -235,6 +250,15 @@ input[type="text"]
          url('../fonts/gothic.woff') format('woff'),
          url('../fonts/gothic.ttf') format('truetype'),
          url('../fonts/gothic.svg#CenturyGothicRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'google-spies';
+    src: url('../fonts/google-spies.eot');
+    src: url('../fonts/google-spies.eot') format('embedded-opentype'),
+         url('../fonts/google-spies.woff') format('woff'),
+         url('../fonts/google-spies.ttf') format('truetype'),
+         url('../fonts/google-spies.svg#google-spies') format('svg');
 }
 
  /* Media Queries */
