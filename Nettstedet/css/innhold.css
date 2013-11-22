@@ -110,6 +110,7 @@ img {
 
 /* Diven med tekst */
 .tekst_hobby{
+  background: url('../bilder/tekstbokser/bla.png');
   width: 30%;
   margin-top:1%;
   margin-bottom:1%;
