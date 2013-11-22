@@ -27,3 +27,17 @@ function tilfeldigSportLink(){
 	
 	window.location.href = tilfeldigBildeArrayUrlS; // return-verdien, altså url-en
 }
+
+//denne bestemmer hvilken random bilde video som blir vist på Sport-siden
+function tilfeldigVideo(){
+var tilfeldigTallS = Math.floor((Math.random()*4)); // Tilfeldig tall mellom 0 og 3, runda ned til nærmeste heltall
+bilder=[];
+	bilder[0]={navn:"gokart",url:"gokart.html"}
+	bilder[1]={navn:"orientering",url:"http://www.youtube.com/embed/B-2xpx5ZKiI"}
+	bilder[2]={navn:"petanque",url:"http://www.youtube.com/embed/JwsdXnuqA5w"}
+	bilder[3]={navn:"bueskyting",url:"bueskyting.html"}
+
+document.getElementById("tilfBild").src=bilder[tilfeldigTallS].bilde;
+document.getElementById("tilfBild").alt=bilder[tilfeldigTallS].navn;
+return [bilder[tilfeldigTallS].url, bilder[tilfeldigTallS].navn];
+}
