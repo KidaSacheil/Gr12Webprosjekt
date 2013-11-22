@@ -14,6 +14,11 @@
   background-attachment: fixed;
 }
 
+#sokresultatbg
+{
+  background:url("../bilder/bg.png");
+  background-attachment: fixed;
+}
 
 /* Wrapperen er formen rundt, avgjør hvor bredt området på siden skal være, og midstiller. */
 #wrapper {
@@ -23,6 +28,15 @@ margin-left:15%;
 margin-right:15%;
 }
 
+section
+{
+  width:60%;
+  background-color:#78a6a3;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+  padding-bottom:5%;
+}
 
 .video {
   margin-top:5%;
@@ -189,7 +203,23 @@ h1 {
   letter-spacing: 4px;
  }
  
- 
+h2
+{
+  font-family: "CenturyGothic";
+  font-size:2em;
+  text-align: center;
+  color:#000;
+}
+
+h3 {
+  padding-left:2%;
+  margin-top:2%;
+}
+
+h4 {
+  padding-left: 2%;
+  font-weight: normal;
+}
 
 a {
   color: #000000;
@@ -243,6 +273,9 @@ input[type="text"]
   margin-left:2%;
   margin-right:2%;
 }
+
+
+
 
 
 
