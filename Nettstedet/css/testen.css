@@ -1,8 +1,11 @@
 /*FONTAR*/
-@font-face
-{
-font-family: spies;
-src: url("../fonts/google-spies.woff");
+@font-face {
+    font-family: 'google-spies';
+    src: url('../fonts/google-spies.eot');
+    src: url('../fonts/google-spies.eot') format('embedded-opentype'),
+         url('../fonts/google-spies.woff') format('woff'),
+         url('../fonts/google-spies.ttf') format('truetype'),
+         url('../fonts/google-spies.svg#CenturyGothicRegular') format('svg');
 }
 
 @font-face
@@ -25,9 +28,11 @@ background-color:white;
 
 #h1{
 text-align: center;
-font-family: bttf;
+font-family: google-spies;
 color:yellow;
 background-color: black;
+letter-spacing: 4px;
+font-size: 60px;
 }
 
 .spmClass{
@@ -46,7 +51,7 @@ float:left;
 padding:5%;
 background-color: red;
 opacity: 0.8;
-font-family: spies;
+font-family: google-spies;
 font-weight: bolder;
 font-size: 4em;
 }
@@ -58,7 +63,7 @@ float:left;
 padding:5%;
 background-color: mediumblue;	
 opacity: 0.8;
-font-family: spies;
+font-family: google-spies;
 font-weight: bolder;
 font-size: 4em;
 }
@@ -67,7 +72,7 @@ font-size: 4em;
 padding:5%;
 background-color: yellow;
 text-align: center;
-font-family: "spies";
+font-family: google-spies;
 font-weight: bolder;
 font-size: 4em;
 }
@@ -77,7 +82,7 @@ display:none;
 padding:5%;
 background-color: yellow;
 text-align: center;
-font-family: "spies";
+font-family: google-spies;
 font-weight: bolder;
 font-size: 5em;
 color:black;
