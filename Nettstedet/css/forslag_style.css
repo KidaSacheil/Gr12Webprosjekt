@@ -6,7 +6,7 @@
 
 body
 {
-    background: url('../bilder/ghost-tile.jpg');
+    background: url('../bilder/bg.png');
     width:100%;
     margin-left: auto;
     margin-right:auto;
@@ -26,13 +26,24 @@ body
 
 #container
 {
-    width:70%;
-    margin-left:15%;
-    margin-right:15%;
-    margin-top:2%;
-    padding-bottom:5%; 
-   background-color: green;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:2%; 
+   background-color: grey;
 }
+
+#tilbake
+{
+
+  margin-right:auto;
+  margin-left: auto;
+  margin-top: 10%;
+  width: 25%;
+  text-align: center;
+
+}
+
 
 form  {
     width:50%;
@@ -49,12 +60,13 @@ form  {
 
 
 h1{
-    color:#FFF;
-    font-family: "BTTF";
-    font-size: 3em;
-    margin-top:2%;
-    margin-bottom:1%;
-    text-align:center;
+  color:#FFF;
+  font-family: "google-spies";
+  font-size: 3em;
+  margin-top:2%;
+  margin-bottom:1%;
+  letter-spacing: 4px;
+  text-align: center;
 
  }
  
@@ -90,5 +102,14 @@ h1{
          url('../fonts/gothic.woff') format('woff'),
          url('../fonts/gothic.ttf') format('truetype'),
          url('../fonts/gothic.svg#CenturyGothicRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'google-spies';
+    src: url('../fonts/google-spies.eot');
+    src: url('../fonts/google-spies.eot') format('embedded-opentype'),
+         url('../fonts/google-spies.woff') format('woff'),
+         url('../fonts/google-spies.ttf') format('truetype'),
+         url('../fonts/google-spies.svg#google-spies') format('svg');
 }
 
