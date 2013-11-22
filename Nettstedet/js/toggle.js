@@ -9,3 +9,6 @@ som henter alle div-ene i kategoriDiv. eq-funksjonen henter indeksen i objektet 
 });
 });
 
+function fjernForsteTekst(){
+document.getElementById("forsteTekst").style.display="none";	
+}
