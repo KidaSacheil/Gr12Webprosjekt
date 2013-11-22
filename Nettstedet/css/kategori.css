@@ -4,11 +4,12 @@
 }
 
 
-body {
-  background: url('../bilder/ghost-tile.jpg');
-  width:100%;
-  margin-left: auto;
-  margin-right:auto;
+#sportbakgrunn {
+  background: url('../bilder/bg_red2.png');
+}
+
+#hobbybakgrunn {
+  background: url('../bilder/bg_blue2.png');
 }
 
 
