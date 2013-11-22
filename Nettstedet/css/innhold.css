@@ -100,13 +100,23 @@ img {
 
 
 /* Diven med tekst */
-.tekst {
+.tekst_hobby{
   width: 30%;
   margin-top:5%;
   margin-bottom:1%;
   margin-right:17.5%;
   height:408px;
-  background-color: Gainsboro;
+  float:right;
+  
+}
+
+.tekst_sport {
+  background: url("../bilder/tekstbokser/rod.png");
+  width: 30%;
+  margin-top:5%;
+  margin-bottom:1%;
+  margin-right:17.5%;
+  height:408px;
   float:right;
 }
 
