@@ -208,7 +208,7 @@ h1 {
   font-family: "google-spies";
   font-size: 3em;
   margin-top:2%;
-  margin-left:12%;
+  margin-left:12.5%;
   margin-bottom:-4%;
   letter-spacing: 4px;
  }
@@ -234,13 +234,13 @@ h4 {
 p{ color:white;}
 
 a {
-  color: #000000;
+  color: #FFF;
 
 }
 
 a:visited
 {
-  color: #000000;
+  color: #FFF;
 }
 
 .bla 
@@ -337,6 +337,6 @@ input[type="text"]
   #tilbake { height:40px; width:40px; margin-top:4%;  margin-right:40%;  margin-left:40%; display:none;}
   .sok { width:99%; float: left; margin-top:2%; margin-bottom: 5%;}
   a img { height:200px; opacity:1;}
-  h1 { font-size: 2em; margin-bottom:0%;}
+  h1 { font-size: 2em; margin-bottom:0%; margin-left: 0%; text-align: center;}
 
 }
