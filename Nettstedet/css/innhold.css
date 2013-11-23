@@ -105,7 +105,15 @@ img {
 
 }
 
+nav
+{
+  background-color:#333333;
+  box-shadow: 0px 5px 10px #4B4B4D;
+  position:absolute;
+  width:21%;
+  display: inline;
 
+}
 
 
 /* Diven med tekst */
@@ -150,8 +158,11 @@ img {
 .linkKatSek{
   position: relative;
   float: left;
-  padding: 5px;
+  padding:5px;
+
+
 }
+
 
 
 
@@ -188,19 +199,24 @@ h1 {
   margin-bottom:-4%;
   letter-spacing: 4px;
  }
+
+ p {
+  color:white;
+ }
  
 
 a {
-  color: #000000;
+  color: #FFF;
   text-decoration: none;
   margin-left:1.5%;
+  word-spacing: 2%;
 
 
 }
 
 a:visited
 {
-  color: #000000;
+  color: #FFF;
   text-decoration: none;
 }
  #sport {
@@ -284,5 +300,7 @@ input[type="text"]
   #tilbake { height:40px; width:40px; margin-top:4%;  margin-right:40%;  margin-left:40%; display:none;}
   a img { height:200px; opacity:1;}
   h1 { font-size: 2em; margin-bottom:0%;}
+  nav{width: 70%;
+  }
 
 }
