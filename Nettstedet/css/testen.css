@@ -90,10 +90,19 @@ line-height:1em; /* Wow – dette funkar visst veldig bra som vertical align for
 }	
 
 #resOversikt{
-	position: absolute;
+	
 	display:none;
 	color:red;
 	right:1%;
 	top:1%;
 	font-size: 0.7em;
+}
+
+#easterEgg{
+	opacity:0;
+	position: fixed;
+	bottom:0px;
+	right:0px;
+	height: 6%;
+	width: 3%;
 }

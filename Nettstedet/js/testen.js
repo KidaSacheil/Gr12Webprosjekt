@@ -258,3 +258,7 @@ function resultatPrint(){
 function gotoAkt(){
 	window.location.href = urlen;
 }
+
+function gotoUfo(){
+	window.location.href = "ufo.html";
+}
