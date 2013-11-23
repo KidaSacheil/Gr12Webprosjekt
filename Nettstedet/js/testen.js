@@ -38,7 +38,7 @@ var urlen;
 		document.getElementById("testOverskrift").innerHTML=endraTekstA;
 
 		document.getElementById("h1").style.color="black";
-		document.getElementById("h1").style.backgroundColor="yellow";
+		document.getElementById("testOverskrift").style.backgroundColor="yellow";
 	}
 
 function svarA(){ // Klikk på knapp A (til venstre)
@@ -193,7 +193,7 @@ var aktivitetar=[];
 	aktivitetar[4]={navn:"strikking",poeng:strikking,url:"strikking.html"}
 	aktivitetar[5]={navn:"matfoto",poeng:matfoto,url:"matfot.html"}
 	aktivitetar[6]={navn:"bridge",poeng:bridge,url:"bridge.html"}
-	aktivitetar[7]={navn:"flyspotting",poeng:flyspotting,url:"flyspotting.html"}
+	aktivitetar[7]={navn:"flyspotting",poeng:flyspotting,url:"planespotting.html"}
 
 		// Sortering etter høgste sum:
 		aktivitetar.sort(function(en, to){
@@ -250,7 +250,7 @@ function resultatPrint(){
 		document.getElementById("resOversikt").innerHTML=endraTekstE;
 
 		document.getElementById("h1").style.color="yellow";
-		document.getElementById("h1").style.backgroundColor="black";
+		document.getElementById("testOverskrift").style.backgroundColor="black";
 	
 	return akt1url;
 	}
