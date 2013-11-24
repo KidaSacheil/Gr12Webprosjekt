@@ -227,12 +227,17 @@ a:visited
   padding: 5px;
  }
 
-   .togglePar {
+.togglePar {
   padding: 5px;
  }
 
 #forsteTekst {
   color:white;
+  padding: 5px;
+ }
+
+ #toggleNav {
+  padding-bottom: 10px;
  }
 
 
