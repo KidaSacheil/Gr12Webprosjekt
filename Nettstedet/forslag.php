@@ -14,7 +14,7 @@
 
 <div id="container">
 
-<div id="tilbake"><a href="./index.html"><img  src="./bilder/back-arrow2.png" alt="tilbake til forsiden - http://www.physiosouth.co.nz/files/images/content/back-arrow2.png" id="tilbake"></a></div>
+<div class="tilbake"><a href="./index.html"><img  src="./bilder/back-arrow2.png" alt="tilbake til forsiden - http://www.physiosouth.co.nz/files/images/content/back-arrow2.png" class="tilbake"></a></div>
 	<form method="post">
 		<table>
 			<tr>
