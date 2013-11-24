@@ -12,8 +12,9 @@
 
 <section>
 <h2>Søkeresultat</h2>
-<br>
-<form action="" method="post">
+<div class="tilbake"><a href="./index.html"><img  src="./bilder/back-arrow2.png" alt="tilbake til forsiden - http://www.physiosouth.co.nz/files/images/content/back-arrow2.png" class="tilbake"></a></div>
+
+<br><form action="" method="post">
 <input type="text" name="sokefeltet">
 <input type="submit" name="soket">
 
