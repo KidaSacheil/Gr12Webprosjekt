@@ -137,11 +137,11 @@ line-height:1em;
 	#spmSvarA { font-size: 1.2em; min-height: 50px; min-width: 100px; padding:2%; width:46%;}
  	#spmSvarB { font-size: 1.2em; min-height: 50px; min-width: 100px; padding:2%; width:46%;}
   	#velkommen { font-size: 2em; min-height: 50px; min-width: 200px}
-  	#tilbake { height:40px; width:40px; margin-top:4%;  margin-right:40%;  margin-left:40%; display:none;}
+  	.tilbake { height:40px; width:40px; margin-top:4%;  margin-right:40%;  margin-left:40%; display:none;}
  	
 }
 
-#tilbake
+.tilbake
 {
 
 	float:right;
