@@ -15,7 +15,7 @@
 <div id="container">
 
 <div id="tilbake"><a href="./index.html"><img  src="./bilder/back-arrow2.png" alt="tilbake til forsiden - http://www.physiosouth.co.nz/files/images/content/back-arrow2.png" id="tilbake"></a></div>
-	<form action=" " method="post">
+	<form method="post">
 		<table>
 			<tr>
 				<td>
@@ -35,12 +35,13 @@
 			</tr>
 			<tr>
 				<td>
-				 <input type="radio" name="type" value="Hobby">Hobby<input class="padding" type="radio" name="type" value="Sport">Sport</td>
+				 <input type="radio" name="type" value="Hobby"> Hobby
+				 <input class="padding" type="radio" name="type" value="Sport"> Sport</td>
 				
 
 				<tr><td><h3>Beskriv aktiviteten:</h3></td></tr>
 			<tr><td>
-				<textarea wrap="off"></textarea></td>
+				<textarea wrap="soft"></textarea></td>
 			</tr>
 			<tr>
 			
@@ -50,7 +51,8 @@
 			</tr>
 
 			<tr>
-				<td><input type="radio" name="budsjett" value="Hoyt">Høyt<input class="padding" type="radio" name="budsjett" value"lavt">Lavt</td>
+				<td><input type="radio" name="budsjett" value="Hoyt"> Høyt
+					<input class="padding" type="radio" name="budsjett" value="lavt"> Lavt</td>
 			</tr>
 		</table>
 
