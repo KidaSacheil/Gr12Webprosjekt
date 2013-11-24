@@ -223,6 +223,15 @@ a:visited
   padding: 5px;
  }
 
+   .togglePar {
+  padding: 5px;
+ }
+
+#forsteTekst {
+  color:white;
+ }
+
+
 small {
   color: White;
 }
