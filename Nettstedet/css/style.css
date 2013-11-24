@@ -1,7 +1,10 @@
+/* Denne er her for å slette alle evt, innebygde paddings og margins. */
 *{
   padding:0px;
   margin:0px;
 }
+
+
 
 body
 {
@@ -43,7 +46,7 @@ margin-right:15%;
 
 }
 
-
+/* Setter reglene for alle bilder, og hvordan de blant annet vises i divene.*/
 img
 {
   width:100%;
@@ -149,6 +152,7 @@ img:hover
 
 }
 
+/* Setter bredden og margins, på søkefeltet */
 input[type="text"]
 {
   width:70%;
@@ -186,6 +190,7 @@ h1 {
   font-size: 1em;
   margin-left:10%;
  }
+
 
 
  /* Font-face */
