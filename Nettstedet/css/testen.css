@@ -16,6 +16,7 @@ src: url("../fonts/bttf.woff");
 
 body{
 background: url('../bilder/bg.png');
+background-attachment: fixed;
 }
 
 .spmHead{
