@@ -70,6 +70,64 @@ font-weight: bolder;
 font-size: 4em;
 }
 
+/*FARGESPEL PÅ SVARA*/
+
+#spmSvarA:hover
+{
+font-weight: lighter;
+background-color:#FF070F;
+}
+#spmSvarA:active
+{
+color:#FFDF00;
+font-style:italic;
+font-weight: lighter;
+background-color:#A60400;
+}
+
+#spmSvarB:hover
+{
+font-weight: lighter;
+background-color:#1531AE;
+}
+#spmSvarB:active
+{
+color:#FFDF00;
+font-style:italic;
+font-weight: lighter;
+background-color:#071A71;
+}
+
+#velkommen:hover
+{
+font-weight: lighter;
+background-color:#F3FD00;
+opacity: 1;
+}
+#velkommen:active
+{
+color:#F3FD00;
+font-style:italic;
+font-weight: lighter;
+background-color:#000000;
+}
+
+#resID:hover
+{
+font-weight: lighter;
+background-color:#F3FD00;
+opacity: 1;
+}
+#resID:active
+{
+color:#F3FD00;
+font-style:italic;
+font-weight: lighter;
+background-color:#000000;
+}
+
+/*-----------------*/
+
 #velkommen{
 padding:5%;
 opacity:0.7;
